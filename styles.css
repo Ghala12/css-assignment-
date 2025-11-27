@@ -1,0 +1,84 @@
+/* الخطوة 3: تنسيق body */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* الخطوة 4: تنسيق header */
+header {
+    background-color: #2c3e50;
+    color: white;
+    padding: 1rem 0;
+}
+
+/* الخطوة 5: تنسيق nav */
+nav {
+    background-color: #34495e;
+    padding: 0.5rem 0;
+}
+
+/* الخطوة 6: تنسيق main */
+main {
+    background-color: #ecf0f1;
+    font-size: 14px;
+    padding: 2rem;
+    min-height: 400px;
+}
+
+/* الخطوة 7: تنسيق footer */
+footer {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+/* الخطوة 8: تنسيق li */
+li {
+    display: inline-block;
+    width: 120px;
+    text-align: center;
+}
+
+/* الخطوة 9: تنسيق h1 */
+h1 {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #ffffff;
+    margin: 0;
+    padding: 1rem;
+}
+
+/* الخطوة 10: تنسيق p */
+p {
+    line-height: 1.8;
+    margin-bottom: 1rem;
+}
+
+/* تنسيق إضافي للروابط والقوائم */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    display: block;
+}
+
+nav a:hover {
+    background-color: #1abc9c;
+}
+
+h2 {
+    color: #2c3e50;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 0.5rem;
+}
